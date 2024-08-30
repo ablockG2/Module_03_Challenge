@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Read CSV</Text>
+    <Description>Some description</Description>
+    <Assembly>Module_03_Challenge\Module_03_Challenge.dll</Assembly>
+    <FullClassName>Module_03_Challenge.ReadCSV</FullClassName>
+    <ClientId>cd4205a2-a200-479f-bcc6-9c1ae29a01b7</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>Read Hard Coded</Text>
+    <Description>Some description</Description>
+    <Assembly>Module_03_Challenge\Module_03_Challenge.dll</Assembly>
+    <FullClassName>Module_03_Challenge.ReadHardCoded</FullClassName>
+    <ClientId>e1d4090f-20c3-4450-87cf-8043282a2bad</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+	<Text>Read Excel</Text>
+	<Description>Some description</Description>
+	<Assembly>Module_03_Challenge\Module_03_Challenge.dll</Assembly>
+	<FullClassName>Module_03_Challenge.ReadExcel</FullClassName>
+	<ClientId>FAF9652A-48E2-4D41-B8B1-D0C1388C4072</ClientId>
+	<VendorId>com.YOUR COMPANY NAME</VendorId>
+	<VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>	
+  <AddIn Type="Application">
+    <Name>Module_03_Challenge</Name>
+    <Assembly>Module_03_Challenge\Module_03_Challenge.dll</Assembly>
+    <FullClassName>Module_03_Challenge.App</FullClassName>
+    <ClientId>9e23d70a-7c80-422a-ab16-850df663b198</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
